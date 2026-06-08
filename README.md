@@ -23,7 +23,7 @@ This specifies node a to node b connection. Which will be connected on the topol
 ##Instruction:
 1. Put excel file for input in the TopoExcel directory. Template file available in the directory.
 2. Output will be generated inside OutputTopo directory
-
+3. Run the python source code and follow instructions.
 
 ##**Release Notes:**
 
