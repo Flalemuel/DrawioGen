@@ -2,7 +2,7 @@
 Tools for generating XML Diagram in Draw.io. Diagram generated is specifically for Metro/IPRAN/Router network topology.
 
 A straightforward tool to generate draw io network topology diagram.
-<img width="233" height="333" alt="image" src="https://github.com/user-attachments/assets/cf8c3c87-12bc-4071-b76d-66443c0fd628" />
+<img width="433" height="333" alt="image" src="https://github.com/user-attachments/assets/cf8c3c87-12bc-4071-b76d-66443c0fd628" />
 
 This is built for ease of generating a topology without the hassle to draw the topology manually.
 
