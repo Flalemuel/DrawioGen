@@ -19,7 +19,8 @@ Data required (in single excel file):
 This specifies node a to node b connection. Which will be connected on the topology using a straight line.
 
 
-This first release features:
+**Release note **
+v1.00:
 1. Single page diagram output.
 2. Input using .xlsx file.
 3. UI Console (Error checking and data re-entry after finished 1 task)
