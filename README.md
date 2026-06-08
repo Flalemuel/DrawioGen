@@ -8,7 +8,7 @@ A straightforward tool to generate draw io network topology diagram.
 
 This is built for ease of generating a topology without the hassle to draw the topology manually.
 
-Data required (in single excel file):
+##Data required (in single excel file):
 **1. Network Element (NE) data (Hostname, IP loopback, NE node type, Site ID)**
   <img width="683" height="133" alt="image" src="https://github.com/user-attachments/assets/5534e869-fae9-4bb7-832b-508115c3e7ca" />
 
@@ -20,8 +20,12 @@ Data required (in single excel file):
 
 This specifies node a to node b connection. Which will be connected on the topology using a straight line.
 
+##Instruction:
+1. Put excel file for input in the TopoExcel directory. Template file available in the directory.
+2. Output will be generated inside OutputTopo directory
 
-**Release Notes:**
+
+##**Release Notes:**
 
 _release version v1.00:_
   1. Single page diagram output.
