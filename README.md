@@ -358,7 +358,7 @@ When `node_type` is left blank, the tool matches the hostname (lowercased) again
 
 - **`networkx` not bundled.** The three graph-based layouts (`kamada_kawai`, `spring`, `spectral`) silently fall back to `hierarchical` if `networkx` is not installed, with a warning message. This may produce unexpected layout results if the user did not intend `hierarchical`.
 
-- - **Layout is static from zero** Program does not support updating topology from existing xml file. Always build layout from ground up.
+- **Layout is static from zero** Program does not support updating topology from existing xml file. Always build layout from ground up.
 
 ---
 
