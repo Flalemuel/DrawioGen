@@ -346,7 +346,7 @@ When `node_type` is left blank, the tool matches the hostname (lowercased) again
 
 - **Single-page output only.** All nodes and links are rendered on a single draw.io page. Multi-page output (e.g. one page per region or per NE type) is not supported in v1.00.
 
-- **Layout is not deterministic for `spring`.** The `spring` algorithm uses a fixed random seed (`seed=42`) for reproducibility, but results can still vary slightly depending on `networkx` version.
+- **Layout is not deterministic for `spring`.** The `spring` algorithm uses a fixed random seed (`seed=42`) for reproducibility, but results can still vary slightly depending on `networkx` version. User might still need to re-arrange it for better viewing of the topology.
 
 - **No link labels.** Connections are drawn as unlabelled straight lines. Interface names, VLAN IDs, or IP addresses on links are not supported in the current version.
 
@@ -357,6 +357,8 @@ When `node_type` is left blank, the tool matches the hostname (lowercased) again
 - **Hostname matching is case-sensitive for links.** A link with `source_hostname = JKT-CSR-01` will not match a node named `jkt-csr-01`. Ensure hostname casing is consistent between the Nodes and Links sheets.
 
 - **`networkx` not bundled.** The three graph-based layouts (`kamada_kawai`, `spring`, `spectral`) silently fall back to `hierarchical` if `networkx` is not installed, with a warning message. This may produce unexpected layout results if the user did not intend `hierarchical`.
+
+- - **Layout is static from zero** Program does not support updating topology from existing xml file. Always build layout from ground up.
 
 ---
 
